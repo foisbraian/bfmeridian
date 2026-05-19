@@ -1,0 +1,118 @@
+.about-section {
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
+.rounded-xl {
+  border-radius: 1rem;
+}
+
+.icon-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--surface-color);
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+}
+
+.text-accent {
+  color: var(--accent-color);
+}
+
+.section-title {
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.mb-4 { margin-bottom: 1rem; }
+.mb-6 { margin-bottom: 1.5rem; }
+
+.text-lg { font-size: 1.125rem; }
+.text-secondary { color: var(--text-secondary); }
+
+.about-graphic {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.graphic-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px dashed var(--border-color);
+  animation: spin 30s linear infinite;
+}
+
+.graphic-dots {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(var(--border-color) 1px, transparent 1px);
+  background-size: 20px 20px;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.floating-card {
+  animation: float 6s ease-in-out infinite alternate;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  width: 280px;
+}
+
+[data-theme='dark'] .floating-card {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.floating-card-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+}
+
+.methodology-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.method-tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(14, 165, 233, 0.1);
+  border: 1px solid rgba(14, 165, 233, 0.2);
+  color: var(--accent-color);
+  white-space: nowrap;
+}
+
+.p-6 { padding: 1.5rem; }
+.rounded-lg { border-radius: 0.5rem; }
+.absolute { position: absolute; }
+.font-bold { font-weight: 700; }
+.text-xl { font-size: 1.25rem; }
+.text-sm { font-size: 0.875rem; }
+.mb-4 { margin-bottom: 1rem; }
+
+@keyframes spin {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes float {
+  from { transform: translateY(0px); }
+  to { transform: translateY(-12px); }
+}

@@ -1,0 +1,2 @@
+src/components/Contact.tsx(2,20): error TS1484: 'SyntheticEvent' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/context/ThemeContext.tsx(1,58): error TS1484: 'ReactNode' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.

@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "about": "Sobre Nós",
+    "services": "Serviços",
+    "methodology": "Metodologia",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Transformar dados complexos em vantagem competitiva.",
+    "subtitle": "Consultoria estratégica para pequenas e médias empresas. Soluções baseadas em análise de dados e diagnóstico situacional profundo.",
+    "cta": "Vamos falar do seu negócio"
+  },
+  "about": {
+    "title": "Nossa Essência",
+    "description": "Meridian vem de 'meridiano'. Nos posicionamos no centro do seu negócio, alinhando dados, processos e estratégia para guiá-lo em cada decisão crucial. Atuamos com a precisão de firmas como BCG ou McKinsey, mas focados na realidade e escala das PMEs.",
+    "standard_title": "Metodologia de elite, na sua escala",
+    "standard_desc": "As ferramentas das grandes consultorias globais, adaptadas à realidade das PMEs.",
+    "tag1": "Porter's 5 Forces",
+    "tag2": "BCG Matrix",
+    "tag3": "OKRs",
+    "tag4": "McKinsey 7S"
+  },
+  "services": {
+    "title": "Como Ajudamos",
+    "subtitle": "Cobrimos toda a cadeia de valor: do diagnóstico estratégico até a implementação tecnológica.",
+    "tag_strategy": "Consultoria",
+    "tag_web": "Desenvolvimento Web",
+    "tag_software": "Software",
+    "data_analysis": "Análise de Dados Avançada",
+    "data_analysis_desc": "Extraímos informações acionáveis do seu ecossistema de dados para otimizar operações e vendas. Transformamos números em decisões.",
+    "data_analysis_b1": "Dashboards e relatórios executivos personalizados",
+    "data_analysis_b2": "Identificação de tendências e anomalias em vendas e custos",
+    "data_analysis_b3": "Modelos preditivos para projeção de demanda",
+    "situational": "Análise de Situação",
+    "situational_desc": "Avaliamos o estado atual da sua empresa no mercado e desenhamos soluções práticas para problemas complexos.",
+    "situational_b1": "Análise competitiva com framework Porter's 5 Forces",
+    "situational_b2": "Diagnóstico SWOT com priorização estratégica",
+    "situational_b3": "Mapeamento de processos e detecção de gargalos",
+    "strategy": "Estratégia Competitiva",
+    "strategy_desc": "Ajudamos a definir vantagens competitivas sustentáveis e um plano de ação concreto para se destacar no mercado.",
+    "strategy_b1": "Definição de proposta de valor e posicionamento",
+    "strategy_b2": "Roadmap estratégico com metas, KPIs e responsáveis",
+    "strategy_b3": "Estratégias de crescimento e expansão de mercado",
+    "web_dev": "Desenvolvimento Web Profissional",
+    "web_dev_desc": "Projetamos e desenvolvemos sites que geram resultados. Não apenas presença digital: ferramentas de negócio.",
+    "web_dev_b1": "Landing pages e sites corporativos de alta conversão",
+    "web_dev_b2": "E-commerce e lojas online com gestão integrada",
+    "web_dev_b3": "Otimização SEO, performance e experiência do usuário",
+    "software_dev": "Desenvolvimento de Software Sob Medida",
+    "software_dev_desc": "Construímos aplicações que automatizam e escalam seus processos. Da ideia ao produto funcionando.",
+    "software_dev_b1": "Apps de gestão interna: planejamento, estoque e RH",
+    "software_dev_b2": "Automação de fluxos operacionais e relatórios",
+    "software_dev_b3": "Integrações entre sistemas e APIs de terceiros"
+  },
+  "methodology": {
+    "title": "Como Trabalhamos",
+    "subtitle": "Um processo comprovado e estruturado, adaptado a cada empresa. Sem genéricos, sem templates.",
+    "step1_title": "Diagnóstico Profundo",
+    "step1_desc": "Começamos com uma análise exaustiva do seu negócio: finanças, processos, mercado e concorrência. Identificamos gargalos e oportunidades ocultas antes de recomendar qualquer coisa.",
+    "step1_duration": "Semana 1–2",
+    "step2_title": "Análise de Dados",
+    "step2_desc": "Processamos seus dados operacionais, financeiros e comerciais para encontrar padrões e tendências. Cada decisão é baseada em evidências, não em suposições.",
+    "step2_duration": "Semana 2–3",
+    "step3_title": "Plano Estratégico",
+    "step3_desc": "Desenhamos um roadmap claro com iniciativas priorizadas, responsáveis e métricas de sucesso. 100% específico para a sua realidade.",
+    "step3_duration": "Semana 3–4",
+    "step4_title": "Acompanhamento",
+    "step4_desc": "Não desaparecemos ao entregar o relatório. Acompanhamos a execução, medimos o impacto real e ajustamos a estratégia conforme os resultados.",
+    "step4_duration": "Contínuo",
+    "case_label": "Caso Real",
+    "case_title": "Distribuidora de Varejo — Argentina",
+    "case_desc": "Após um diagnóstico de 3 semanas, identificamos ineficiências críticas na gestão de estoque e oportunidades concretas de renegociação com fornecedores. Sem investimento adicional, apenas com informação e estratégia, o cliente alcançou resultados mensuráveis em menos de dois meses.",
+    "case_metric1": "23%",
+    "case_metric1_label": "redução nos custos operacionais",
+    "case_metric2": "60 dias",
+    "case_metric2_label": "tempo de implementação",
+    "case_metric3": "3x",
+    "case_metric3_label": "ROI do projeto"
+  },
+  "contact": {
+    "title": "Vamos Conversar",
+    "subtitle": "Pronto para tomar decisões com dados? Entre em contato diretamente — respondemos em menos de 24h.",
+    "whatsapp": "Fale pelo WhatsApp",
+    "whatsapp_desc": "",
+    "email_btn": "Envie um e-mail",
+    "email_desc": "bfmeridian@gmail.com",
+    "or": "ou"
+  },
+  "footer": {
+    "rights": "© 2026 BF Meridian. Todos os direitos reservados."
+  }
+}
