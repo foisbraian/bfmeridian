@@ -62,31 +62,6 @@ export function Methodology() {
             </div>
           ))}
         </div>
-
-        {/* Case Study */}
-        <div className="case-study glass-panel">
-          <div className="case-study-inner">
-            <div className="case-left">
-              <div className="case-label">{t('methodology.case_label')}</div>
-              <h3 className="case-title">{t('methodology.case_title')}</h3>
-              <p className="case-desc">{t('methodology.case_desc')}</p>
-            </div>
-            <div className="case-metrics">
-              <div className="case-metric">
-                <span className="metric-value">{t('methodology.case_metric1')}</span>
-                <span className="metric-label">{t('methodology.case_metric1_label')}</span>
-              </div>
-              <div className="case-metric">
-                <span className="metric-value">{t('methodology.case_metric2')}</span>
-                <span className="metric-label">{t('methodology.case_metric2_label')}</span>
-              </div>
-              <div className="case-metric">
-                <span className="metric-value">{t('methodology.case_metric3')}</span>
-                <span className="metric-label">{t('methodology.case_metric3_label')}</span>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

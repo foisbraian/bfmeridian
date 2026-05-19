@@ -34,7 +34,9 @@ export function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled glass-panel' : ''}`}>
       <div className="container flex justify-between items-center navbar-content">
         <a href="#" className="logo">
-          <span className="logo-bf">BF</span>
+          <svg className="logo-svg" viewBox="0 0 376 200" fill="currentColor">
+            <path fillRule="evenodd" clipRule="evenodd" d="M 376 0 L 50 0 A 50 50 0 0 0 50 100 A 50 50 0 0 0 50 200 L 226 200 L 226 125 L 360 125 L 360 75 L 226 75 L 226 50 L 376 50 Z M 176 50 L 87.5 50 A 12.5 12.5 0 0 0 87.5 75 L 176 75 Z M 176 125 L 87.5 125 A 12.5 12.5 0 0 0 87.5 150 L 176 150 Z" />
+          </svg>
           <span className="logo-meridian">MERIDIAN</span>
         </a>
 
@@ -59,8 +61,8 @@ export function Navbar() {
         </div>
 
         {/* Mobile Menu Toggle */}
-        <button 
-          className="mobile-toggle icon-btn" 
+        <button
+          className="mobile-toggle icon-btn"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
@@ -74,8 +76,8 @@ export function Navbar() {
           <ul className="flex-col gap-4 p-4">
             {navLinks.map((link) => (
               <li key={link.name}>
-                <a 
-                  href={link.href} 
+                <a
+                  href={link.href}
                   className="nav-link mobile-link"
                   onClick={() => setIsOpen(false)}
                 >

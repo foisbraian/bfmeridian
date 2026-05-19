@@ -16,14 +16,18 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.65rem;
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.05em;
 }
 
-.logo-bf {
+.logo-svg {
+  width: 2.3rem;
+  height: auto;
+  aspect-ratio: 376 / 200;
   color: var(--accent-color);
+  flex-shrink: 0;
 }
 
 .logo-meridian {
@@ -105,11 +109,11 @@
   .desktop-menu {
     display: none;
   }
-  
+
   .mobile-toggle {
     display: flex;
   }
-  
+
   .mobile-menu {
     display: block;
   }
