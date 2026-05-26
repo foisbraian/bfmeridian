@@ -3,14 +3,34 @@ import './Contact.css';
 import { MessageCircle, Mail } from 'lucide-react';
 
 const WA_NUMBER = '5547991538352';
-const WA_MESSAGE = encodeURIComponent('Hola, me gustaría conocer más sobre BF Meridian y agendar una consulta inicial.');
 const EMAIL = 'bfmeridian@gmail.com';
 
-export function Contact() {
-  const { t } = useTranslation();
+// Track Meta Pixel event safely (avoids errors if Pixel not loaded)
+function trackPixel(event: string) {
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (window as any).fbq?.('track', event);
+  } catch (_) {}
+}
 
-  const whatsappUrl = `https://wa.me/${WA_NUMBER}?text=${WA_MESSAGE}`;
+export function Contact() {
+  const { t, i18n } = useTranslation();
+
+  // Use language-specific WhatsApp message
+  const waMessage = encodeURIComponent(t('contact.whatsapp_message'));
+  const whatsappUrl = `https://wa.me/${WA_NUMBER}?text=${waMessage}`;
   const emailUrl = `mailto:${EMAIL}`;
+
+  const handleWhatsAppClick = () => {
+    trackPixel('Lead');
+  };
+
+  const handleEmailClick = () => {
+    trackPixel('Contact');
+  };
+
+  // Suppress unused variable warning — i18n is used to trigger re-render on lang change
+  void i18n;
 
   return (
     <section id="contact" className="section relative contact-section">
@@ -27,6 +47,7 @@ export function Contact() {
             rel="noopener noreferrer"
             className="contact-btn contact-btn-whatsapp"
             id="contact-whatsapp"
+            onClick={handleWhatsAppClick}
           >
             <div className="contact-btn-icon">
               <MessageCircle size={24} />
@@ -48,6 +69,7 @@ export function Contact() {
             rel="noopener noreferrer"
             className="contact-btn contact-btn-email"
             id="contact-email"
+            onClick={handleEmailClick}
           >
             <div className="contact-btn-icon">
               <Mail size={24} />

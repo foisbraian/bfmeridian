@@ -14,19 +14,21 @@ export function Hero() {
       <div className="container hero-content flex flex-col items-center justify-center">
         <div className="hero-text-wrapper text-center">
           <div className="badge glass-panel mb-6 inline-block px-4 py-2 rounded-full text-sm font-medium">
-            Strategic Consulting
+            {t('hero.badge')}
           </div>
           <h1 className="hero-title">{t('hero.title')}</h1>
           <p className="hero-subtitle">{t('hero.subtitle')}</p>
           
           <div className="hero-actions flex gap-4 justify-center mt-8">
-            <a href="#contact" className="btn btn-primary">
+            <a href="#contact" className="btn btn-primary btn-pulse">
               {t('hero.cta')}
             </a>
             <a href="#services" className="btn btn-outline">
-              {t('nav.services')}
+              {t('hero.cta_secondary')}
             </a>
           </div>
+
+          <p className="hero-trust">{t('hero.trust')}</p>
         </div>
       </div>
     </header>

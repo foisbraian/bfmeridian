@@ -73,6 +73,14 @@
   margin: 0 auto;
 }
 
+.hero-trust {
+  margin-top: 1.25rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.01em;
+  opacity: 0.8;
+}
+
 .badge {
   color: var(--text-primary);
   border: 1px solid var(--border-color);
@@ -93,6 +101,22 @@
 @keyframes float {
   0% { transform: translate(0, 0); }
   100% { transform: translate(30px, -50px); }
+}
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.25); }
+  70% { box-shadow: 0 0 0 10px rgba(0, 0, 0, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
+}
+
+[data-theme='dark'] @keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2); }
+  70% { box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+}
+
+.btn-pulse {
+  animation: pulse-ring 2.5s ease-out infinite;
 }
 
 @media (max-width: 640px) {

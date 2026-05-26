@@ -6,9 +6,12 @@
     "contact": "Contato"
   },
   "hero": {
-    "title": "Transformar dados complexos em vantagem competitiva.",
-    "subtitle": "Consultoria estratégica para pequenas e médias empresas. Soluções baseadas em análise de dados e diagnóstico situacional profundo.",
-    "cta": "Vamos falar do seu negócio"
+    "badge": "Marketing Imobiliário · Sites de Alta Conversão",
+    "title": "Sites que geram mais clientes para o seu negócio.",
+    "subtitle": "Desenvolvemos landing pages premium com WhatsApp integrado, otimizadas para converter visitas em leads reais. Mais consultas, menos esforço.",
+    "cta": "Solicitar análise gratuita",
+    "cta_secondary": "Ver serviços",
+    "trust": "✓ Grátis e sem compromisso · Resposta em menos de 24h"
   },
   "about": {
     "title": "Nossa Essência",
@@ -22,7 +25,7 @@
   },
   "services": {
     "title": "Como Ajudamos",
-    "subtitle": "Cobrimos toda a cadeia de valor: do diagnóstico estratégico até a implementação tecnológica.",
+    "subtitle": "Cobrimos toda a cadeia de valor: do desenvolvimento web à gestão de campanhas e consultoria estratégica.",
     "tag_strategy": "Consultoria",
     "tag_web": "Desenvolvimento Web",
     "tag_software": "Software",
@@ -42,10 +45,10 @@
     "strategy_b2": "Roadmap estratégico com metas, KPIs e responsáveis",
     "strategy_b3": "Estratégias de crescimento e expansão de mercado",
     "web_dev": "Desenvolvimento Web Profissional",
-    "web_dev_desc": "Projetamos e desenvolvemos sites que geram resultados. Não apenas presença digital: ferramentas de negócio.",
-    "web_dev_b1": "Landing pages e sites corporativos de alta conversão",
-    "web_dev_b2": "E-commerce e lojas online com gestão integrada",
-    "web_dev_b3": "Otimização SEO, performance e experiência do usuário",
+    "web_dev_desc": "Projetamos e desenvolvemos sites que geram resultados reais. Não apenas presença digital — ferramentas de negócio que convertem visitas em clientes.",
+    "web_dev_b1": "Landing pages de alta conversão com WhatsApp integrado",
+    "web_dev_b2": "Gestão de campanhas Meta Ads e Google Ads",
+    "web_dev_b3": "Otimização SEO, velocidade e experiência do usuário",
     "software_dev": "Desenvolvimento de Software Sob Medida",
     "software_dev_desc": "Construímos aplicações que automatizam e escalam seus processos. Da ideia ao produto funcionando.",
     "software_dev_b1": "Apps de gestão interna: planejamento, estoque e RH",
@@ -79,12 +82,13 @@
   },
   "contact": {
     "title": "Vamos Conversar",
-    "subtitle": "Pronto para tomar decisões com dados? Entre em contato diretamente — respondemos em menos de 24h.",
+    "subtitle": "Pronto para gerar mais clientes? Entre em contato diretamente — respondemos em menos de 24h.",
     "whatsapp": "Fale pelo WhatsApp",
-    "whatsapp_desc": "",
+    "whatsapp_desc": "Grátis · Sem compromisso",
     "email_btn": "Envie um e-mail",
     "email_desc": "bfmeridian@gmail.com",
-    "or": "ou"
+    "or": "ou",
+    "whatsapp_message": "Olá! Gostaria de solicitar uma análise gratuita do meu negócio com a BF Meridian."
   },
   "footer": {
     "rights": "© 2026 BF Meridian. Todos os direitos reservados."
