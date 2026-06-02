@@ -6,12 +6,12 @@
     "contact": "Contato"
   },
   "hero": {
-    "badge": "Marketing Imobiliário · Sites de Alta Conversão",
-    "title": "Sites que geram mais clientes para o seu negócio.",
-    "subtitle": "Desenvolvemos landing pages premium com WhatsApp integrado, otimizadas para converter visitas em leads reais. Mais consultas, menos esforço.",
-    "cta": "Solicitar análise gratuita",
-    "cta_secondary": "Ver serviços",
-    "trust": "✓ Grátis e sem compromisso · Resposta em menos de 24h"
+    "badge": "Análise · Estratégia · Desenvolvimento",
+    "title": "Soluções de negócios baseadas em dados reais.",
+    "subtitle": "Ajudamos as empresas a crescer através de análises profundas, estratégia competitiva e desenvolvimento tecnológico. Menos suposições, mais resultados.",
+    "cta": "Agendar consultoria",
+    "cta_secondary": "Conhecer metodologia",
+    "trust": "✓ Diagnóstico inicial gratuito · Foco em resultados"
   },
   "about": {
     "title": "Nossa Essência",
@@ -70,25 +70,25 @@
     "step4_title": "Acompanhamento",
     "step4_desc": "Não desaparecemos ao entregar o relatório. Acompanhamos a execução, medimos o impacto real e ajustamos a estratégia conforme os resultados.",
     "step4_duration": "Contínuo",
-    "case_label": "Caso Real",
-    "case_title": "Distribuidora de Varejo — Argentina",
-    "case_desc": "Após um diagnóstico de 3 semanas, identificamos ineficiências críticas na gestão de estoque e oportunidades concretas de renegociação com fornecedores. Sem investimento adicional, apenas com informação e estratégia, o cliente alcançou resultados mensuráveis em menos de dois meses.",
-    "case_metric1": "23%",
-    "case_metric1_label": "redução nos custos operacionais",
-    "case_metric2": "60 dias",
-    "case_metric2_label": "tempo de implementação",
-    "case_metric3": "3x",
-    "case_metric3_label": "ROI do projeto"
+    "case_label": "Impacto Esperado",
+    "case_title": "Otimização e Crescimento Estrutural",
+    "case_desc": "Nossa abordagem permite identificar ineficiências críticas e oportunidades de melhoria desde o primeiro diagnóstico. Sem a necessidade de grandes investimentos iniciais, otimizamos seus processos com base em dados concretos para gerar resultados tangíveis a curto prazo.",
+    "case_metric1": "15-25%",
+    "case_metric1_label": "melhoria na eficiência operacional",
+    "case_metric2": "30-60 dias",
+    "case_metric2_label": "tempo para primeiras métricas",
+    "case_metric3": "100%",
+    "case_metric3_label": "decisões apoiadas em dados"
   },
   "contact": {
     "title": "Vamos Conversar",
-    "subtitle": "Pronto para gerar mais clientes? Entre em contato diretamente — respondemos em menos de 24h.",
+    "subtitle": "Pronto para escalar seu negócio? Entre em contato diretamente e agende uma consultoria inicial gratuita.",
     "whatsapp": "Fale pelo WhatsApp",
-    "whatsapp_desc": "Grátis · Sem compromisso",
+    "whatsapp_desc": "Atendimento personalizado",
     "email_btn": "Envie um e-mail",
     "email_desc": "bfmeridian@gmail.com",
     "or": "ou",
-    "whatsapp_message": "Olá! Gostaria de solicitar uma análise gratuita do meu negócio com a BF Meridian."
+    "whatsapp_message": "Olá! Gostaria de solicitar uma análise inicial do meu negócio com a BF Meridian."
   },
   "footer": {
     "rights": "© 2026 BF Meridian. Todos os direitos reservados."
